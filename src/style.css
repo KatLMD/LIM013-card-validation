@@ -1,0 +1,52 @@
+h1 {
+    color: rgb(147, 77, 194); /*COLOR*/
+    text-align: center; /*ALINEAR TEXTO AL CENTRO*/
+    font-size: 212%; /*AUMENTAR EL TAMAÑO 3 VECES MAS*/
+    font-style: normal; /*ESTILO DE FUENTE NORMAL*/
+    font-weight: bold; /*GROSOR DE LETRA*/
+    font-family: Critter,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;/*LOS TIPOS DE LETRA QUE PUEDE USAR*/
+  }
+
+
+  label {
+    color: rgb(9, 10, 10);
+    font-size: 150%;
+    font-style: normal;
+    font-weight: bold;
+    font-family: Critter,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+
+
+img {
+    width: 121px;
+    margin-top: 12px;
+    margin-right: 10px;
+}
+
+li{
+    float: left;
+    list-style: none;
+    padding: 79px;
+}
+
+nav{
+    float: right;
+    margin-top: 1px;
+    margin-right: 2px;
+    
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+li:hover a{
+    color: white;
+}
+
+header{
+    background-color: rgb(23, 167, 167)
+}
+
