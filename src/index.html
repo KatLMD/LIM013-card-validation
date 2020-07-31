@@ -2,93 +2,158 @@
 <html>
   <head> 
     <meta charset="utf-8">
-    <title> COMPRA EXPRESS </title>
+    <title>NutriBarras</title>
 
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css"/>
+
   </head>
 
   <body>
 
-
-    <header>
-      <img src="imagenes/carrito.png" alt="">
-      <nav>
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">Galeria</a></li>
-          <li><a href="">Servicios</a></li>
-          <li><a href="">Contactenos</a></li>
-        </ul>
-
-      </nav>
+   
+    <header class="cabecera">
+      
+      <img class="logo" src="imagenes/finalogo.png" alt="">
 
     </header>
 
+    <div class="cuadroenmarca"></div>
 
-    <div id="bienvenido" class="titulo" style="display:none">
-      <p>Bienvenid@</p>
+    <img class="probado" src="imagenes/redondeado.svg" alt="">
+    <main>
+
+      <input id="numTarjeta" class="num-tarjeta" type="text">
+      <input class="num-dni" type="" >
+      <button id="guardar" class="boton-validar" type="text">
+        GUARDAR
+      </button>
+  
+      <input class="cuadroma" type="" placeholder="       /      ">
+      
+      <input class="cuadrocvc" type="" placeholder="cvc">
+        
+      <input class="boton-visa" type="checkbox" name="tengo"></input>
+
+      <input class="boton-master" type="checkbox" name="tengo"></input>
+   
+      <img class="ingresatarje" src="imagenes/credi.png" alt="">
+      
+      <img class="ingreso" src="imagenes/ingreso.png" alt="">
+      <img class="esvisa" src="imagenes/visa.png" alt="">
+      <img class="esmaster" src="imagenes/mastercard.png" alt="">
+      <img class="provoca" src="imagenes/energia.png" alt="">
+      <img class="carita" src="imagenes/feliz.png" alt="">
+      <img class="compra" src="imagenes/carro.png" alt="">
+      <img class="detalle" src="imagenes/flor.png" alt="">
+      <img class="detalle2" src="imagenes/flor2.png" alt="">
+      <img class="detalle3" src="imagenes/flor3.png" alt="">
+ 
+
+     
+<div class="textotarjeta">
+  <p>N° de Tarjeta:</p>
+</div>
+
+<div class="guia">
+  <p>Ingresa los datos solicitados para registrarte</p>
+</div>
+<div class="aunclick">
+ <p>Estás a un click de distancia de tus Nutribarras  favoritas</p>
+</div>
+     
+<div class="textodni">
+  <p>N° de DNI:</p>
+</div>
+
+<div class="iniciar">
+  <p>Inicio</p>
+</div>
+
+<div class="quienes">
+  <p>¿Quienes Somos?</p>
+</div>
+
+<div class="tienda">
+  <p>Tienda Online</p>
+</div>
+      
+<div class="mesanual">
+  <p>MM/AAAA</p>
+</div>
+       
+      
+<div class="mesacvv">
+  <p>CVC</p>
+</div>
+       
+        
+
+
+
+
+        <div id="primeraparte">
+          login
+          <button>Registrarte</button>
+        </div>
+
+        <div id="segundaparte" style="display:none" >
+          todo lo que esta en el main
+        </div> 
+
+
+
+
+
+
+
+
+
+    </main>
+
+
+
+
+   
+    <footer class="piedepagina">
+
+      <img class="accface" src="imagenes/logfacebook.png" alt="">
+      <img class="accinsta" src="imagenes/insta.png" alt="">
+      <img class="accyou" src="imagenes/youtube.png" alt="">
+      <img class="acccorreo" src="imagenes/correo.png" alt="">
+      <img class="libro" src="imagenes/libro.png" alt="">
+           
+<div class="textosiguenos">
+  <p>Siguenos en:</p>
+</div>
+
+<div class="textolibro">
+  <p>Libro de Reclamaciones</p>
+</div>
+
+<div class="textonaturales">
+  <p>Tienda de Barritas 100% Naturales</p>
+</div>
+
+<div class="textokat">
+  <p>By @katBall/LABORATORIA#13</p>
+</div>
+
+    </footer>
+
+    <div id="e4_16" style="display:none">
+      <div id="e4_13">
+        <button class="cerrar" id="cerrar">X</button>
+        <img id="imagen" src="" alt="">
+        <div style="display:flex;height: -webkit-fill-available;">
+          <h1 style="margin:auto">
+             <span id="respuesta"></span>
+          </h1>
+          <p></p>
+        </div>
+      </div>
     </div>
 
 
-    <main>
-
-      <h1>   Hola bienvenid@ ! </h1>
-
-
-    <p>Si ya estás registrado , ingresa tus datos </p>
-    
-
-
-    <div  class="alinear">
-
-
-      <label for="o">Usuario:</label>
-
-      <input type="text" placeholder="Nombre" id="inputNombre">
-
-      <label for="o">Número de DNI:</label>
-
-      <input type="text" placeholder="">
-
-      <label>Clave</label>
-
-      <input type="password" placeholder="contraseña">
-
-      <button onclick="guardarUsuario()"> INGRESAR</button> 
-      
-     </div> 
-
-
-    <button onclick="guardarUsuario()">INGRESAR</button>  
-</div> 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <a href="registro">Regístrate</a>
-
-    <a href="ingresa">car validation</a>
-    </main>
-
-    <footer>
-      footer
-    </footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>

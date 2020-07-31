@@ -1,52 +1,728 @@
-h1 {
-    color: rgb(147, 77, 194); /*COLOR*/
-    text-align: center; /*ALINEAR TEXTO AL CENTRO*/
-    font-size: 212%; /*AUMENTAR EL TAMAÑO 3 VECES MAS*/
-    font-style: normal; /*ESTILO DE FUENTE NORMAL*/
-    font-weight: bold; /*GROSOR DE LETRA*/
-    font-family: Critter,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;/*LOS TIPOS DE LETRA QUE PUEDE USAR*/
-  }
 
+.num-tarjeta{
+   /* Rectangle 4 */
+position: absolute;
+width: 155px;
+height: 17px;
+left: 659px;
+top: 190px;
 
-  label {
-    color: rgb(9, 10, 10);
-    font-size: 150%;
-    font-style: normal;
-    font-weight: bold;
-    font-family: Critter,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-
-
-
-img {
-    width: 121px;
-    margin-top: 12px;
-    margin-right: 10px;
+background: #FFFFFF;
+border: 3px solid #000000;
+border-radius: 12px;
 }
 
-li{
-    float: left;
-    list-style: none;
-    padding: 79px;
+.num-dni{
+/* Rectangle 12 */
+position: absolute;
+width: 155px;
+height: 17px;
+left: 659px;
+top: 255px;
+
+background: #FFFFFF;
+border: 3px solid #000000;
+border-radius: 12px;
 }
 
-nav{
-    float: right;
-    margin-top: 1px;
-    margin-right: 2px;
+.cabecera{
+    position: absolute;
+    width: 1400px;
+    height: 80px;
+    right: 0px;
+    left: 149px;
+    top: 0px;
+    
+    background: #FFFFFF;
     
 }
 
-a{
-    text-decoration: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.logo {
+    /* finalogo 1 */  
+    position: absolute;
+    width: 140px;
+    height: 77px;
+    left: 33px;
+    top: 59px;
+    background: #FFFFFF;
+    }
+    
+
+.piedepagina {
+    position: absolute;
+    width: 1400px;
+    height: 83px;
+    left: 149px;
+    top: 1221px;
+    background: #FFFFFF; 
 }
 
-li:hover a{
-    color: white;
+
+.cuadroenmarca{
+    /* Rectangle 13 */
+    position: absolute;
+    width: 355px;
+    height: 420px;
+    left: 526px;
+    top: 113px;
+    background: linear-gradient(180deg, rgba(225, 111, 5, 0.38) 46.35%, rgba(255, 255, 255, 0) 100%), rgba(249, 180, 2, 0.47);
+    border-radius: 12px;   
+}
+    
+
+body{
+ background: rgba(243, 185, 33, 1);
+ background-size: 100% 900%;
 }
 
-header{
-    background-color: rgb(23, 167, 167)
+        
+.detalle{
+    /* LogoMakr_5V90pH 2 */
+    position: absolute;
+    width: 595px;
+    height: 36px;
+    left: 2px;
+    top: 954px;
+    }    
+    
+
+
+
+       
+    .detalle2 {
+        /* LogoMakr_5V90pH 2 */
+        position: absolute;
+        width: 595px;
+        height: 36px;
+        left: 565px;
+        top: 954px;
+        }    
+        
+     
+       
+    .detalle3 {
+        /* LogoMakr_5V90pH 2 */
+        position: absolute;
+        width: 595px;
+        height: 36px;
+        left: 1129px;
+        top: 953px;
+        }    
+        
+
+.probado{
+
+/* Rectangle 6 */
+
+position: absolute;
+width: 1400px;
+height: 423px;
+left: 149px;
+top: 541px;
+
+background: url(/imagenes/redondeado.svg);
+}
+
+
+
+
+.boton-validar{
+    /* Rectangle 2 */
+position: absolute;
+width: 253.75px;
+height: 45px;
+left: 584px;
+top: 474px;
+cursor: pointer;
+background: #000000;
+border: 2px solid #0A0909;
+box-sizing: border-box;
+border-radius: 14px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+align-items: center;
+
+color: #FFFCFC;
+}
+
+.boton-visa{
+
+
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+    left: 605px;
+    top: 314px;
+    border: 3px solid #000000;
+    
+}
+
+
+.boton-visa:checked {
+    background-color:#000000;
+}
+
+.boton-master {
+    
+/* Ellipse 2 */
+position: absolute;
+width: 1em;
+height: 1em;
+background-color: white;
+border-radius: 50%;
+vertical-align: middle;
+-webkit-appearance: none;
+outline: none;
+cursor: pointer;
+left: 750px;
+top: 314px;
+
+border: 3px solid #000000;
+
+}
+.boton-master:checked {
+    background-color:#000000;
+}
+
+
+#e4_16 {
+	/* position:relative; */
+  display: flex;
+	background-color:rgba(220,220,220,0.4);
+	opacity:1;
+	width:100vw;
+	height:100vh;
+  position: absolute;
+  top: 0;
+}
+#e4_13 {
+  /* por mi  */
+  text-align: right;
+    display: grid;
+  margin: auto;
+  /* por mi  */
+	background-color:rgba(232.68750607967377, 201.11956000328064, 89.1968697309494, 1);
+	opacity:1;
+	width:473px;
+	height:312px;
+	/* position:absolute; */
+	/* left:258px; */
+	/* top:0px; */
+	border-top-left-radius:12px;
+	border-top-right-radius:12px;
+	border-bottom-left-radius:12px;
+	border-bottom-right-radius:12px;
+}
+
+
+
+
+.cerrar{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-left: auto;
+
+
+    
+}
+
+
+* {
+    outline: none!important;
+}
+
+
+.logo{
+/* finalogo 1 */
+position: absolute;
+width: 221px;
+height: 81px;
+left: 55px;
+top: -2px;
+}
+
+.ingresatarje{
+/* credi 1 */
+position: absolute;
+width: 38px;
+height: 27.73px;
+left: 595px;
+top: 193px;
+}
+
+/* ingreso 1 */
+
+.ingreso {
+position: absolute;
+width: 38.03px;
+height: 40px;
+left: 595px;
+top: 255px;
+border-radius: 114px;
+}
+
+
+.textotarjeta{
+/* N° de Tarjeta */
+
+position: absolute;
+width: 98px;
+height: 17px;
+left: 595px;
+top: 154px;
+
+font-family:'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+align-items: center;
+color: #000000;
+}
+
+
+.textodni{
+    /* N° de Tarjeta */
+
+position: absolute;
+width: 98px;
+height: 17px;
+left: 595px;
+top: 232px;
+
+font-family:'Segoe UI';
+font-style: normal;
+font-weight: 900;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #000000;
+   
+    }
+
+.guia {
+ /* Ingresa los datos solicitados : */
+
+position: absolute;
+width: 294.35px;
+height: 21.74px;
+left: 565px;
+top: 129px;
+
+font-family: 'Segoe UI';
+font-style: normal;
+font-weight:900;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+ }
+
+ .iniciar{
+
+/* Inicio */
+
+
+position: absolute;
+width: 35px;
+height: 28px;
+left: 895px;
+top: 41px;
+
+font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 900;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+cursor: pointer;
+color: #184e07;
+
+
+ }
+
+ .quienes{
+/* ¿Quienes somos? */
+
+
+position: absolute;
+width: 120px;
+height: 28px;
+left: 1010px;
+top: 41px;
+
+font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 900;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+cursor: pointer;
+color:  #184e07;
+ }
+
+
+ .tienda {
+/* Tienda Online */
+
+
+position: absolute;
+width: 120px;
+height: 28px;
+left: 1200px;
+top: 41px;
+
+/* monserrat */
+
+font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 900;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+cursor: pointer;
+color: #184e07;
+ }
+
+
+
+.esvisa{
+  /* visa 1 */
+position: absolute;
+width: 50px;
+height: 36.89px;
+left: 640px;
+top: 297px;
+border-radius: 12px;
+}
+.esmaster {
+
+/* mastercard 1 */
+
+
+position: absolute;
+width: 54.73px;
+height: 35px;
+left: 786px;
+top: 297px;
+border-radius: 12px;
+
+}
+
+
+.provoca{
+    /* energia 1 */
+
+    position: absolute;
+    width: 425px;
+    height: 405px;
+    left: 221px;
+    top: 559px;
+    border-radius: 189px 186px 0px 0px;
+}
+
+.aunclick{
+    /* Estás a un click de distancia de tus Nutribarras favoritas */
+position: absolute;
+width: 550px;
+height: 70px;
+left: 681px;
+top: 790px;
+font-family:'Segoe UI';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 22px;
+ identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+}
+
+.mesanual {
+
+/* MM/AAAA */
+position: absolute;
+width: 17px;
+height: 17px;
+left: 569px;
+top: 390px;
+font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 900;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+}
+
+
+
+.mesacvv {
+
+    /* MM/AAAA */
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    left: 749px;
+    top: 390px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+    
+    }
+    
+
+.cuadroma{
+    /* Rectangle 10*/
+    
+    position: absolute;
+    width: 59px;
+    height: 15px;
+    left: 652px;
+    top: 376.48px;
+    
+    background: #FFFFFF;
+    border: 3px solid #000000;
+    border-radius: 12px;
+    }
+    
+    
+
+.cuadrocvc{
+    /* Rectangle 10*/
+    
+    position: absolute;
+    width: 25px;
+    height: 15px;
+    left: 780px;
+    top: 376.48px;
+    
+    background: #FFFFFF;
+    border: 3px solid #000000;
+    border-radius: 12px;
+    }
+    
+
+.carita{
+
+/* feliz 1 */
+
+
+position: absolute;
+width: 39.82px;
+height: 40px;
+left: 1192px;
+top: 785px;
+}
+
+
+
+.compra{
+    /* carro 1 */
+
+position: absolute;
+width: 35px;
+height: 35.7px;
+left: 1367px;
+top: 31px;
+cursor: pointer;
+
+}
+
+
+.accface {
+    /* facebook */
+
+
+position: absolute;
+width: 34px;
+height: 35px;
+left: 315px;
+top: 36px;
+bottom: 41px;
+cursor: pointer;
+}
+
+
+
+.accinsta {
+    /* instagram */
+position: absolute;
+width: 34px;
+height: 35px;
+left: 462px;
+top: 36px;
+border-radius: 114.5px;
+cursor: pointer;
+}
+
+
+.accyou {
+    /* you tu be*/
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 413px;
+    top: 36px;
+    border-radius: 200px;
+    cursor: pointer;
+}
+
+
+
+.acccorreo{
+/* correo */
+position: absolute;
+width: 32.94px;
+height: 35px;
+left: 365px;
+top: 36px;
+border-radius: 139px;
+cursor: pointer;
+}
+
+.textosiguenos{
+/* siguenos */
+position: absolute;
+left: 11.5%;
+right: 81.32%;
+top: 5.99%;
+bottom: 66.84%;
+font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 900;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+color: #184e07;
+}
+
+.libro{
+    /* libro 2 */
+
+
+position: absolute;
+width: 24px;
+height: 23px;
+left: 1007px;
+top: 12px;
+cursor: pointer;
+}
+
+
+.textolibro{
+    /* reclamaciones */
+    position: absolute;
+    left: 74%;
+    right: 5.59%;
+    top: 5.99%;
+    bottom: 66.84%;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #184e07;
+    cursor: pointer;
+    }
+    
+    .textonaturales{
+    /* libro */
+position: absolute;
+left: 74%;
+right: 3.59%;
+top: 33%;
+bottom: 56.25%;
+
+font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 900;
+font-size: 14px;
+line-height: 17px;
+
+color: #184e07;
+    }
+
+    .textokat{
+        /* reclamaciones */
+        position: absolute;
+        left: 74%;
+        right: 5.59%;
+        top: 58%;
+        bottom: 66.84%;
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 17px;
+        /* identical to box height */
+        color: #184e07;
+        }
+        
+
+
+
+
+
+#respuesta{
+
+    font-family:'Segoe UI';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+
+}
+
+#imagen{
+    position: absolute;
+width: 112px;
+height: 112px;
+left: 570px;
+top: 300px;
 }
 
