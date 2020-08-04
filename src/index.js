@@ -14,7 +14,7 @@ btn.addEventListener('click',() => {
          // dialog diciendo que es invalido 
       }   
    }else{
-      ver('!Faltan completar los campos',false)
+      ver('! Faltan completar los campos',false)
    }
    
 });

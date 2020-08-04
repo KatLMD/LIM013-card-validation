@@ -63,16 +63,20 @@ border-radius: 12px;
     position: absolute;
     width: 355px;
     height: 420px;
-    left: 526px;
+    left: 679px;
     top: 113px;
     background: linear-gradient(180deg, rgba(225, 111, 5, 0.38) 46.35%, rgba(255, 255, 255, 0) 100%), rgba(249, 180, 2, 0.47);
     border-radius: 12px;   
 }
     
 
-body{
- background: rgba(243, 185, 33, 1);
- background-size: 100% 900%;
+body{  
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    background-color: rgba(243, 185, 33, 1);;
+  
 }
 
         
@@ -131,7 +135,7 @@ background: url(/imagenes/redondeado.svg);
 position: absolute;
 width: 253.75px;
 height: 45px;
-left: 584px;
+left: 732px;
 top: 474px;
 cursor: pointer;
 background: #000000;
@@ -163,8 +167,8 @@ color: #FFFCFC;
     -webkit-appearance: none;
     outline: none;
     cursor: pointer;
-    left: 605px;
-    top: 314px;
+    left: 733px;
+    top: 371px;
     border: 3px solid #000000;
     
 }
@@ -186,8 +190,8 @@ vertical-align: middle;
 -webkit-appearance: none;
 outline: none;
 cursor: pointer;
-left: 750px;
-top: 314px;
+left: 898px;
+top: 371px;
 
 border: 3px solid #000000;
 
@@ -237,11 +241,6 @@ border: 3px solid #000000;
 
 
     
-}
-
-
-* {
-    outline: none!important;
 }
 
 
@@ -417,8 +416,8 @@ color: #184e07;
 position: absolute;
 width: 50px;
 height: 36.89px;
-left: 640px;
-top: 297px;
+left: 759px;
+top: 363px;
 border-radius: 12px;
 }
 .esmaster {
@@ -429,8 +428,8 @@ border-radius: 12px;
 position: absolute;
 width: 54.73px;
 height: 35px;
-left: 786px;
-top: 297px;
+left: 925px;
+top: 363px;
 border-radius: 12px;
 
 }
@@ -459,7 +458,7 @@ font-style: normal;
 font-weight: 900;
 font-size: 18px;
 line-height: 22px;
- identical to box height */
+ /* identical to box height */
 
 display: flex;
 align-items: center;
@@ -474,8 +473,8 @@ color: #000000;
 position: absolute;
 width: 17px;
 height: 17px;
-left: 569px;
-top: 390px;
+left: 721px;
+top: 424px;
 font-family: 'Segoe UI';
 font-style: normal;
 font-weight: 900;
@@ -498,8 +497,8 @@ color: #000000;
     position: absolute;
     width: 17px;
     height: 17px;
-    left: 749px;
-    top: 390px;
+    left: 911px;
+    top: 424px;
     font-family: 'Segoe UI';
     font-style: normal;
     font-weight: 900;
@@ -521,8 +520,8 @@ color: #000000;
     position: absolute;
     width: 59px;
     height: 15px;
-    left: 652px;
-    top: 376.48px;
+    left: 801px;
+    top: 420.48px;
     
     background: #FFFFFF;
     border: 3px solid #000000;
@@ -537,8 +536,8 @@ color: #000000;
     position: absolute;
     width: 25px;
     height: 15px;
-    left: 780px;
-    top: 376.48px;
+    left: 945px;
+    top: 420.48px;
     
     background: #FFFFFF;
     border: 3px solid #000000;

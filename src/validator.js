@@ -1,14 +1,14 @@
 const validator = { 
 
   isValid:(numero)=>{
-    var nuevoArray = numero.split("")// convertimos el numero en un arreglo y se le asigna a nuevoArray
+    var nuevoArray = numero.split("")// convierto el numero en un arreglo y se le asigna a nuevoArray
     if (parseInt(numero.length==16)){
       return false;
     }
-    var sumaTotal = 0 // creamos una variable con valor 0 para que se sume con los resultados parciales 
+    var sumaTotal = 0 // creo una variable con valor 0 para que se sume con los resultados parciales 
     nuevoArray.forEach((elemento,posicion)=> {
         elemento = parseInt(elemento)
-        // posicion%2 =>  poscion es par  => respues es 0
+        // posicion%2 =>  poscion es par  => respuesta es 0
         // posicion%2 =>  poscion es inpar => respueta es 1
         if (posicion%2==0) {
             var ab = 2*elemento
