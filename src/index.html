@@ -1,161 +1,236 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="utf-8">
-    <title>NutriBarras</title>
-
-    <link rel="stylesheet" href="style.css"/>
-
-  </head>
-
-  <body>
-
-    <header class="cabecera">
-      
-      <img class="logo" src="imagenes/finalogo.png" alt="">
-
-    </header>
-
-    
-    <div class="cuadroenmarca"></div>
-
-    <img class="probado" src="imagenes/redondeado.svg" alt="">
-    <main>
-
-      <input id="numTarjeta" class="num-tarjeta" type="text">
-      <input class="num-dni" type="" >
-      <button id="guardar" class="boton-validar" type="text">
-        GUARDAR
-      </button>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-      <input class="cuadroma" type="" placeholder="         /    ">
-      
-      <input class="cuadrocvc" type="" placeholder="cvc">
+    <title>NutriBarras</title>
+    <link rel="shortcut icon" href="imagenes/finalogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="new12.css"/>
+</head>
+
+<body>
+    <header>
+        <nav class="contenedor-header"> 
+               <div class="icono">
+                  <img src="imagenes/finalogo.png" alt="">     
+               </div>
+
+               <div class="menu">
+                  <div class="opcion">
+                     <a href="#">Inicio</a>
+                  </div>
+
+                  <div class="opcion">
+                     <a href="#">¿Quienes somos?</a> 
+                  </div>
+
+                   <div class="opcion">
+                     <a href="#">Tienda Online</a>
+                   </div>
+
+              </div>
+
+
+              <div class="carrito">
+                 <img src="imagenes/carro.png" alt=""> 
+              </div>
+
+
+                <div class="menu-smart" >
+                    
+                 <div class="mas">
+                   <img src="imagenes/baritas.png" alt=""> 
+                 </div>
+
+
+                
+                  <div class="opciones-ocultas"> 
+                    <div class="opcion-smart">
+                        Inicio
+                    </div>
+
+                    <div class="opcion-smart">
+                         Quienes somos
+                   </div>
+
+                    <div class="opcion-smart">
+                         Tienda Online
+                    </div>
+                </div>
+            </div>     
+        </nav>
+    </header>
+    
+    
+<main>
+    <div class="contenedor-main">
+        <div class="cuadro-registro">
+               <div class="fila titulo">
+                 <p>Ingresa los datos solicitados para registrarte</p>
+               </div>
+
+            <div class="fila dni">
+                <div class="textotarjeta">
+                    <p>N° de DNI:</p>
+                    <img class="imagenes-registro" src="imagenes/ingreso.png" alt="">
+                </div>
+                <div>
+                    <input  class="caja" type="text">
+                  </div>    
+            </div>
+
+
+            
+            <div class="fila tarjeta">
+                <div class="textotarjeta">
+                    <p>N° de Tarjeta:</p>
+                    <img class="imagenes-registro" src="imagenes/credi.png" alt="">
+                </div>
+                <div>
+                    <input id="numTarjeta" class="caja" type="text">
+                </div>
+                
+            </div>
+
+            <div class="fila tipos">
+
+                <div class="opcion-tarjeta">
+                    <input class="boton-tipos" type="radio" name="tengo">
+                     <img class="imagenes-tipos" src="imagenes/visa.png" alt="">      
+                </div>
+
+                <div class="opcion-tarjeta">
+                    <input class="boton-tipos" type="radio" name="tengo">
+                    <img class="imagenes-tipos" src="imagenes/mastercaard.png" alt="">
+                </div>
+            </div>
+
+            <div class="fila mas">
+                        
+              <div class="opcion-mas">
+                    <p>CVC</p>
+                     <div>
+                    <input class="caja-mas" type="" placeholder="cvc">
+                    </div>           
+                </div>
         
-      <input class="boton-visa" type="checkbox" name="tengo"></input>
-
-      <input class="boton-master" type="checkbox" name="tengo"></input>
-   
-      <img class="ingresatarje" src="imagenes/credi.png" alt="">
-      
-      <img class="ingreso" src="imagenes/ingreso.png" alt="">
-      <img class="esvisa" src="imagenes/visa.png" alt="">
-      <img class="esmaster" src="imagenes/mastercard.png" alt="">
-      <img class="provoca" src="imagenes/energia.png" alt="">
-      <img class="carita" src="imagenes/feliz.png" alt="">
-      <img class="compra" src="imagenes/carro.png" alt="">
-      <img class="detalle" src="imagenes/flor.png" alt="">
-      <img class="detalle2" src="imagenes/flor2.png" alt="">
-      <img class="detalle3" src="imagenes/flor3.png" alt="">
- 
-
-     
-<div class="textotarjeta">
-  <p>N° de Tarjeta:</p>
-</div>
-
-<div class="guia">
-  <p>Ingresa los datos solicitados para registrarte</p>
-</div>
-<div class="aunclick">
- <p>Estás a un click de distancia de tus Nutribarras  favoritas</p>
-</div>
-     
-<div class="textodni">
-  <p>N° de DNI:</p>
-</div>
-
-<div class="iniciar">
-  <p>Inicio</p>
-</div>
-
-<div class="quienes">
-  <p>¿Quienes Somos?</p>
-</div>
-
-<div class="tienda">
-  <p>Tienda Online</p>
-</div>
-      
-<div class="mesanual">
-  <p>MM/AAAA</p>
-</div>
-       
-      
-<div class="mesacvv">
-  <p>CVC</p>
-</div>
-       
-        
+               <div class="opcion-mas">
+                     <p>MM/AAAA</p> 
+                     <div>
+                     <input class="caja-mas" type="" placeholder="     /    ">  
+                    </div>  
+                </div>        
+            </div>    
 
 
 
-<!---
-        <div id="primeraparte">
-          login
-          <button>Registrarte</button>
+          <div class="fila guardar">
+            <button id="guardar" class="boton-validar" type="text">
+                GUARDAR
+              </button>
+          </div>
+         
         </div>
 
-        <div id="segundaparte" style="display:none" >
-          todo lo que esta en el main
-        </div> ---->
+
+
+        <div class="cuadro4">
+                 
+            <span class="olitas olita-texto">
+               
+                    <h1>Estás a un click de distancia de tus Nutribarras favoritas</h1> 
+                   
+            </span>
+
+            <span class="olitas">
+                <img class="carita" src="imagenes/feliz.png" alt="">
+            </span>
+        </div>   
 
 
 
 
-
-
-
-
-
-    </main>
-
-
-
-
-   
-    <footer class="piedepagina">
-
-      <img class="accface" src="imagenes/logfacebook.png" alt="">
-      <img class="accinsta" src="imagenes/insta.png" alt="">
-      <img class="accyou" src="imagenes/youtube.png" alt="">
-      <img class="acccorreo" src="imagenes/correo.png" alt="">
-      <img class="libro" src="imagenes/libro.png" alt="">
-           
-<div class="textosiguenos">
-  <p>Siguenos en:</p>
-</div>
-
-<div class="textolibro">
-  <p>Libro de Reclamaciones</p>
-</div>
-
-<div class="textonaturales">
-  <p>Tienda de Barritas 100% Naturales</p>
-</div>
-
-<div class="textokat">
-  <p>By @katBall/LABORATORIA#13</p>
-</div>
-
-    </footer>
-
-    <div id="e4_16" style="display:none">
-      <div id="e4_13">
-        <button class="cerrar" id="cerrar">X</button>
-        <img id="imagen" src="" alt="">
-        <div style="display:flex;height: -webkit-fill-available;">
-          <h1 style="margin:auto">
-             <span id="respuesta"></span>
-          </h1>
-          <p></p>
-        </div>
-      </div>
     </div>
 
+</main>
 
-   <!-- <script src="index.js" type="module"></script>-->
+        
 
-  </div>
-  </body>
+
+
+
+
+
+            
+<footer>
+
+    <nav class="contenedor-footer"> 
+               <div class="opcion2">
+                 <h2>Siguenos</h2>
+               </div>
+
+            
+        
+            <div class="seguir">
+                <img class="red"   src="imagenes/logfacebook.png" alt="">
+                <img class="red"    src="imagenes/insta.png" alt="">
+                <img class="red"     src="imagenes/youtube.png" alt="">
+                <img  class="red " src="imagenes/correo.png" alt="">
+                
+            </div>    
+
+
+            <div class="seguir2">
+                <img class="libro" src="imagenes/libro.png" alt="">   
+             </div>  
+
+
+
+             <div class="contacto">
+                <div class="opcion3">
+                    <h2>Tienda de Barritas 100% Naturales</h2>
+                    <h2>Libro de Reclamaciones</h2>
+                    <h2>By @katBall/LABORATORIA#13</h2>
+                </div>        
+            </div>
+
+    </nav>
+
+       
+</footer> 
+
+<div id="e4_16" style="display:none">
+    <div id="e4_13">
+        <button class="cerrar" id="cerrar">X</button>
+        <img id="imagen" src="/imagenes/OK.png" alt="">
+        <div style="display:flex;height: -webkit-fill-available;">
+            <h1 style="margin:auto">
+                <span id="respuesta"></span>
+            </h1>
+        </div>
+    </div>
+</div>
+
+
+<script src="index.js" type="module"></script>
+</body>
 </html>
+    
+    
+    
+            
+
+
+               
+     
+            
+
+
+
+
+
+
+
+
+

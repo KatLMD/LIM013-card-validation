@@ -23,19 +23,15 @@ let input = document.getElementById('numTarjeta')
 
 input.addEventListener('input',(numero) => { 
    if(input.value.length==0){
-      console.log('todo')
       input.value = ''
       numeroTarjeta = ''
    }else{
-      console.log(numero)
       if(numero.inputType=="insertText"){
          let ultimodigito = numero.data
          numeroTarjeta = numeroTarjeta + ultimodigito
          input.value = validator.maskify(numeroTarjeta)
-         console.log(numeroTarjeta,validator.maskify(numeroTarjeta))
       }else if(numero.inputType=="deleteContentBackward"){
          numeroTarjeta = numeroTarjeta.slice(0, -1)
-         console.log(numeroTarjeta ,input.value)
       }else{
          input.value = ''
          numeroTarjeta = ''

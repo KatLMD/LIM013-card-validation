@@ -1,10 +1,10 @@
 const validator = { 
 
   isValid:(numero)=>{
-    var nuevoArray = numero.split("")// convierto el numero en un arreglo y se le asigna a nuevoArray
-    if (parseInt(numero.length==16)){
+    if (numero.length!==16){
       return false;
     }
+    var nuevoArray = numero.split("")// convierto el numero en un arreglo y se le asigna a nuevoArray
     var sumaTotal = 0 // creo una variable con valor 0 para que se sume con los resultados parciales 
     nuevoArray.forEach((elemento,posicion)=> {
         elemento = parseInt(elemento)
@@ -13,7 +13,7 @@ const validator = {
         if (posicion%2==0) {
             var ab = 2*elemento
             if(ab>=10){
-                var a = Math.floor(ab/10)
+                var a = parseInt(ab/10)
                 var b = ab - a*10
                 sumaTotal = a + b + sumaTotal
             }else{
