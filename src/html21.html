@@ -7,93 +7,264 @@
     <title>NutriBarras</title>
     <link rel="shortcut icon" href="imagenes/finalogo.png" type="image/x-icon">
     <link rel="stylesheet" href="new12.css"/>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,300;1,400;1,700&display=swap" rel="stylesheet">
-    
 </head>
+
 <body>
     <header>
-        <nav>
-            <section class="contenedor nav"> 
-                <div class="logo">
-                    <img src="imagenes/finalogo.png" alt="">     
-                </div>
-                <div class="enlaces-header">
-            <a href="#">Inicio</a>
-            <a href="#">¿Quienes somos?</a>
-            <a href="#">Tienda Online</a>
-                </div>
+        <nav class="contenedor-header"> 
+               <div class="icono">
+                  <img src="imagenes/finalogo.png" alt="">     
+               </div>
 
-            <div class="carro">
-                <img src="imagenes/carro.png" alt=""> 
+               <div class="menu">
+                  <div class="opcion">
+                     <a href="#">Inicio</a>
+                  </div>
 
-            </div>
-        </section>   
+                  <div class="opcion">
+                     <a href="#">¿Quienes somos?</a> 
+                  </div>
+
+                   <div class="opcion">
+                     <a href="#">Tienda Online</a>
+                   </div>
+
+              </div>
+
+
+              <div class="carrito">
+                 <img src="imagenes/carro.png" alt=""> 
+              </div>
+
+
+                <div class="menu-smart" >
+                    
+                 <div class="mas">
+                   <img src="imagenes/baritas.png" alt=""> 
+                 </div>
+
+
+                
+                  <div class="opciones-ocultas"> 
+                    <div class="opcion-smart">
+                        Inicio
+                    </div>
+
+                    <div class="opcion-smart">
+                         Quienes somos
+                   </div>
+
+                    <div class="opcion-smart">
+                         Tienda Online
+                    </div>
+                </div>
+            </div>     
         </nav>
     </header>
     
     
 <main>
+    <div class="contenedor-main">
+        <div class="cuadro-registro">
+               <div class="fila titulo">
+                 <p>Ingresa los datos solicitados para registrarte</p>
+               </div>
 
-<section class="contenedor sobre-registrate">
-    <h2 class="titulo">Ingresa los datos solicitados para registrarte </h2>
-    <div class="contenedor sobre-registrate">
-<img class="imagen-about-us" src="imagenes/redondeado.svg" alt="">
+            <div class="fila dni">
+                <div class="textotarjeta">
+                    <p>N° de DNI:</p>
+                    <img class="imagenes-registro" src="imagenes/ingreso.png" alt="">
+                </div>
+                <div>
+                    <input  class="caja" type="text">
+                  </div>    
+            </div>
+
+
+            
+            <div class="fila tarjeta">
+                <div class="textotarjeta">
+                    <p>N° de Tarjeta:</p>
+                    <img class="imagenes-registro" src="imagenes/credi.png" alt="">
+                </div>
+                <div>
+                    <input id="numTarjeta" class="caja" type="text">
+                </div>
+                
+            </div>
+
+            <div class="fila tipos">
+
+                <div class="opcion-tarjeta">
+                    <input class="boton-tipos" type="radio" name="tengo">
+                     <img class="imagenes-tipos" src="imagenes/visa.png" alt="">      
+                </div>
+
+                <div class="opcion-tarjeta">
+                    <input class="boton-tipos" type="radio" name="tengo">
+                    <img class="imagenes-tipos" src="imagenes/mastercaard.png" alt="">
+                </div>
+            </div>
+
+            <div class="fila mas">
+                        
+              <div class="opcion-mas">
+                    <p>CVC</p>
+                     <div>
+                    <input class="caja-mas" type="" placeholder="cvc">
+                    </div>           
+                </div>
+        
+               <div class="opcion-mas">
+                     <p>MM/AAAA</p> 
+                     <div>
+                     <input class="caja-mas" type="" placeholder="     /    ">  
+                    </div>  
+                </div>        
+            </div>    
+
+
+
+          <div class="fila guardar">
+            <button id="guardar" class="boton-validar" type="text">
+                GUARDAR
+              </button>
+          </div>
+         
+        </div>
+
+
+
+        <div class="cuadro4">
+                 
+            <span class="olitas olita-texto">
+               
+                    <h1>Estás a un click de distancia de tus Nutribarras favoritas</h1> 
+                   
+            </span>
+
+            <span class="olitas">
+                <img class="carita" src="imagenes/feliz.png" alt="">
+            </span>
+        </div>   
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
     </div>
 </main>
+
+        
+<script src="index.js" type="module"></script>
+            
+<footer>
+
+    <nav class="contenedor-footer"> 
+               <div class="opcion2">
+                 <h2>Siguenos</h2>
+               </div>
+
+            
+        
+            <div class="seguir">
+                <img src="imagenes/logfacebook.png" alt="">
+                <img src="imagenes/insta.png" alt="">
+                <img src="imagenes/youtube.png" alt="">
+                <img  src="imagenes/correo.png" alt="">
+                
+            </div>    
+
+
+            <div class="seguir2">
+                <img class="libro" src="imagenes/libro.png" alt="">   
+             </div>  
+
+
+
+             <div class="contacto">
+                <div class="opcion3">
+                    <h2>Tienda de Barritas 100% Naturales</h2>
+                    <h2>Libro de Reclamaciones</h2>
+                    <h2>By @katBall/LABORATORIA#13</h2>
+                </div>        
+            </div>
+
+    </nav>
+
+       
+</footer> 
+
+<div id="e4_16" style="display:none">
+    <div id="e4_13">
+      <button class="cerrar" id="cerrar">X</button>
+      <img id="imagen" src="" alt="">
+      <div style="display:flex;height: -webkit-fill-available;">
+        <h1 style="margin:auto">
+           <span id="respuesta"></span>
+        </h1>
+        <p></p>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+</body>
+</html>
+    
+    
+    
+            
+
+
+    <!--
+        <nav class="contenedor-footer">         
+            <div class="menu2">
+                <div class="opcion2">
+                <h2>Siguenos</h2>
+                </div>
+            </div>
+
+            <div class="redes">
+                <img class="accface" src="imagenes/logfacebook.png" alt="">
+                <img class="accinsta" src="imagenes/insta.png" alt="">
+                <img class="accyou" src="imagenes/youtube.png" alt="">
+                <img class="acccorreo" src="imagenes/correo.png" alt="">
+                
+            </div>
+
+            <div class="redes2">
+                <img class="libro" src="imagenes/libro.png" alt="">   
+             </div>  
+
+            <div class="menu3">
+                <div class="opcion3">
+                   <h2>Libro de Reclamaciones</h2>
+                   <h2>Tienda de Barritas 100% Naturales</h2>
+                   <h2>By @katBall/LABORATORIA#13</h2>
+                </div>        
+            </div>
+
+            
+
+
+
+
+        
+           
+        </nav>-->
    
 
 
 
 
-
-<!--
-        <footer class="piedepagina">
-
-            <img class="accface" src="imagenes/logfacebook.png" alt="">
-            <img class="accinsta" src="imagenes/insta.png" alt="">
-            <img class="accyou" src="imagenes/youtube.png" alt="">
-            <img class="acccorreo" src="imagenes/correo.png" alt="">
-            <img class="libro" src="imagenes/libro.png" alt="">
-                 
-      <div class="textosiguenos">
-        <p>Siguenos en:</p>
-      </div>
-      
-      <div class="textolibro">
-        <p>Libro de Reclamaciones</p>
-      </div>
-      
-      <div class="textonaturales">
-        <p>Tienda de Barritas 100% Naturales</p>
-      </div>
-      
-      <div class="textokat">
-        <p>By @katBall/LABORATORIA#13</p>
-     
-          </footer>  --->
-
-
-
-<footer>
-
-    <div class="contenedor-footer">
-        <div class="content-foo">
-            <h4>Siguenos en:</h4>
-        </div>
-    
-    </div>
-    
-</footer>
-
-
-
-
-
-
-
-
-
-
-
-</body>
-</html>
