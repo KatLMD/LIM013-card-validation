@@ -1,7 +1,7 @@
 const validator = { 
 
   isValid:(numero)=>{
-    if (numero.length!==16){
+    if (numero.length>16){
       return false;
     }
     var nuevoArray = numero.split("")// convierto el numero en un arreglo y se le asigna a nuevoArray
@@ -23,22 +23,18 @@ const validator = {
             sumaTotal = sumaTotal +elemento
         }
     });
-    if (sumaTotal%10==0) {
-        return true
-    }else{
-        return false
+    if ((sumaTotal%10)==0) {
+        return true;
+    }
+    else{
+        return false;
     }
   },
 
 
 maskify: function maskify (numero_tarjeta) {
   numero_tarjeta= numero_tarjeta.replace(/.(?=.{4})/g, "#");
-  return numero_tarjeta;
-}
-
-
-
-
+  return numero_tarjeta;}
 };
 
 

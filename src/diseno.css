@@ -99,16 +99,41 @@ header{
 
 main{
     min-height: 500px;
-    height: 100vh;
+    height: 150vh;
 }
 
 
 .contenedor-main{
-        
-        display: flex;
+    padding: 0px;     
 }
 
 
+.contenedor-hojas{
+
+    position: absolute;
+    z-index: 1;
+    background-image: url(imagenes/pasar.png);
+    background-size: 100%;
+    top: 890px;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 450px;
+    align-items: center;
+}
+
+
+
+.contenedor-compras {
+    position: absolute;
+    z-index: 1;
+    background-image: url(imagenes/ultimo.png);
+    background-size: 100%;
+    top: 590px;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 390px;
+    align-items: center;
+}
 
 
 .fila.tipos{
@@ -236,17 +261,28 @@ h2{
         display: flex;
     }
 
-    .imagenes-tipos{
-        width: 100%;
-        
-     }
+  
+     .cuadro-registro{
+    
+        margin: 70px auto;  
+        max-width: 450px;
+        padding: 10px;     
+        border-radius: 12px;
+    
+}
+
+
+.cuadro3 {
+    display: flex;
+}
+
 
 
 
 .cuadro4 {
     position: absolute;
     z-index: 1;
-    background-image: url(imagenes/ondapri.png);
+    background-image: url('imagenes/ondapri.png');
     background-size: 100%;
     top: 390px;
     width: 100%;
@@ -257,7 +293,8 @@ h2{
 
 
 h1 {
-    max-width: 637px;
+    display: block;
+    max-width: 571px;
     padding: 14px;
     font-family: 'Segoe UI';
     font-weight: 900;
@@ -267,14 +304,35 @@ h1 {
 
 
 .cuadro5 {
-    
-            display: flex;
-            position: absolute;
-            top: 549px;
-        }
-        
 
 
+    position: absolute;
+    z-index: 1;
+    background-size: 100%;
+    top: 390px;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 270px;
+    align-items: center;
+}
+
+
+
+
+
+
+.contep {
+
+
+    position: absolute;
+    z-index: 1;
+    background-size: 100%;
+    top: 550px;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 270px;
+    align-items: center;
+}
 
 
 p{ 
@@ -282,16 +340,8 @@ p{
     padding: 24px;
     max-width: 680px;
     font-family: 'Segoe UI';
-    font-weight: 900;
-  
+    font-weight: 900;  
 }
-
-
-.contenedor-compras{
-    margin: 239px 0px 27px 150px;
-}
-
-
 
 
 .mira{
